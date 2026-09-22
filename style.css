@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+}
+
+.logo-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.logo {
+    height: 150px;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(fonts/Norsebold.otf);
+}
+
+.title {
+    font-family: "Norse Bold";
+    color: white;
+    font-size: 100px;
+}
