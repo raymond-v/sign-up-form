@@ -34,3 +34,96 @@ body {
     color: white;
     font-size: 100px;
 }
+
+.right-side {
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF9F6;
+}
+
+.top {
+    flex: 1;
+    background-color: #FAF9F6;
+    margin: 100px 420px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.top p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.middle {
+    flex: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+}
+
+.middle p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#signup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#signup label {
+    display: block;
+}
+
+#signup input {
+    display: block;
+    width: 325px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+#signup input:focus {
+    border: 1px solid #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+    outline: none;
+}
+
+#signup input:user-invalid {
+    border: 1px solid red;
+}
+
+.bottom {
+    flex: 1;
+    background-color: #FAF9F6;
+    margin: 50px;
+    
+}
+
+button {
+    background-color: #596D48;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.login {
+    margin-top: 50px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.login a {
+    color: #596D48
+}
